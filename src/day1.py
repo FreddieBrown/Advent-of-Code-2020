@@ -1,7 +1,7 @@
 in_list = []
 seen = set()
 
-with open('day1.txt') as f:
+with open('../data/day1.txt') as f:
     for line in f:
         in_list.append(int(line))
 
